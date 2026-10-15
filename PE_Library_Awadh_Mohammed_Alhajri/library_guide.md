@@ -3,7 +3,7 @@
 **Owner:** Awadh Mohammed Alhajri  
 **Last updated:** 2026_10_15
 
-This library is for guided Scenario B1 in the training program. It includes five reusable prompts, one block of seven invented facts, and five rules for responsible use. The templates are for drafting, summarizing, sorting, rewriting tone and flagging refund exceptions. A human reviewer checks every result.
+This library is for guided Scenario B1 in the training program. It includes five tested, reusable prompts, one block of seven invented facts, and five rules for responsible use. The templates are for drafting, summarizing, sorting, rewriting tone and flagging refund exceptions. The reply and complaint-summary prompts are v2 after retesting; their earlier v1 copies are kept in _archive/. A human reviewer checks every result.
 
 ## How to use a template
 

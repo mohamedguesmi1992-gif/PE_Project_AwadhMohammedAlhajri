@@ -2,18 +2,18 @@
 
 **Owner:** Awadh Mohammed Alhajri  
 **Scenario:** B1 - Learner Support Desk at a Training Center  
-**Version:** v1  
+**Version:** v2  
 **Updated:** 2026_10_15
 
 ## Five templates
 
 | Template | Task | Variables | Version | Evidence status |
 |---|---|---|---|---|
-| [TC-Reply-Inquiry](templates/TC-Reply-Inquiry-v1_2026_10_15.md) | Answer a learner’s question | [INQUIRY], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Genuine run checked; 2 further test cases pending |
-| [TC-Summarize-Complaint](templates/TC-Summarize-Complaint-v1_2026_10_15.md) | Condense a learner’s complaint | [MESSAGE], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Genuine run checked; 2 further test cases pending |
-| [TC-Classify-Request](templates/TC-Classify-Request-v1_2026_10_15.md) | Sort incoming requests | [INQUIRY], [CATEGORIES], [LANGUAGE], [MAX_WORDS], [CENTER_FACTS] | v1 | Genuine run checked; 2 further test cases pending |
-| [TC-Soften-Staff-Draft](templates/TC-Soften-Staff-Draft-v1_2026_10_15.md) | Soften a staff draft | [DRAFT], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Genuine run checked; 2 further test cases pending |
-| [TC-Flag-Refund-Exception](templates/TC-Flag-Refund-Exception-v1_2026_10_15.md) | Refund exception note | [REQUEST], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Genuine run checked; 2 further test cases pending |
+| [TC-Reply-Inquiry](templates/TC-Reply-Inquiry-v2_2026_10_15.md) | Answer a learner’s question | [INQUIRY], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v2 | Pass: 5/5 prompt, 6/6 template, 5/5 output |
+| [TC-Summarize-Complaint](templates/TC-Summarize-Complaint-v2_2026_10_15.md) | Condense a learner’s complaint | [MESSAGE], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v2 | Pass: 5/5 prompt, 6/6 template, 5/5 output |
+| [TC-Classify-Request](templates/TC-Classify-Request-v1_2026_10_15.md) | Sort incoming requests | [INQUIRY], [CATEGORIES], [LANGUAGE], [MAX_WORDS], [CENTER_FACTS] | v1 | Pass: 5/5 prompt, 6/6 template, 5/5 output |
+| [TC-Soften-Staff-Draft](templates/TC-Soften-Staff-Draft-v1_2026_10_15.md) | Soften a staff draft | [DRAFT], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Pass: 5/5 prompt, 6/6 template, 5/5 output |
+| [TC-Flag-Refund-Exception](templates/TC-Flag-Refund-Exception-v1_2026_10_15.md) | Refund exception note | [REQUEST], [LANGUAGE], [TONE], [MAX_WORDS], [CENTER_FACTS] | v1 | Pass: 5/5 prompt, 6/6 template, 5/5 output |
 
 
 ## Shared reference
@@ -33,6 +33,7 @@ Arabic | English | Automated (default) | Bilingual | Mixed.
 |---|---|
 | 2026_10_15 | Started the final project from the Day 4 library pattern and the guided training-center scenario. |
 | 2026_10_15 | Added five new TC templates, one shared facts block and five checkable responsible-use rules. |
-| 2026_10_15 | Added five genuine run screenshots to the report and reviewed the visible outputs; secondary fills and edge cases remain to be recorded. |
+| 2026_10_15 | Added five genuine run screenshots, completed the additional fills and edge cases, and reviewed the corrected test responses. |
+| 2026_10_15 | Released v2 of the reply and complaint-summary templates; archived v1 copies. All five templates now pass the required criteria. |
 
-Only a human reviewer can approve an output for use. Five actual model-run screenshots are included in the report. Full template approval still requires the second fill and an edge-case test for each template.
+Five tested templates meet the 5/5 prompt, 6/6 template and 5/5 output checklists based on the recorded runs. Approval here means the template is suitable for the training library; a human reviewer still approves each outbound reply.

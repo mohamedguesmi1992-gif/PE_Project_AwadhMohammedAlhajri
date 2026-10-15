@@ -29,11 +29,11 @@ This is a text-only training project using the invented seven Center Facts in th
 
 ## Test evidence
 
-Five genuine AI-run screenshots are included in the six-page report. The visible outputs have been checked against the seven training facts. The template-quality Tested criterion still requires two different fills and one edge case per template; the second fill and edge-case runs remain outstanding. The report currently records 5/5, 5/6 and 5/5 until they are verified.
+The six-page Test Results Report includes one genuine AI-run screenshot per template. For every template, two different fills and one edge case were evaluated, including corrective retests where needed. Recorded results: 5/5 prompt quality, 6/6 template quality and 5/5 output quality. Each outward-facing response still requires human approval.
 
 ## Training Program
 
-This project was completed as part of the Prompt Engineering and Responsible AI Use training program at SDAIA Academy, under the supervision of Abdullah Khalid Alshahrani.
+This project was completed as part of the Prompt Engineering and Responsible AI Use training program at SDAIA Academy, under the supervision of Abdullah Khalid AlShahrani.
 
 The project demonstrates the practical application of prompt engineering and responsible AI use — building a clean, approved prompt library through structured RACE prompts, reusable templates with variables and fixed output formats, safe handling of sensitive data, verification and responsible-use rules, and a documented three-test quality report.
 
